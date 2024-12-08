@@ -1,0 +1,10 @@
+<library path="ur5e_csv_controller">
+    <class name="ur5e_csv_controller/UR5eCSVController"
+        type="ur5e_csv_controller::UR5eCSVController"
+        base_class_type="controller_interface::ControllerInterface">
+        <description>
+            Blast csv joints data to the UR5e robotic arm, basically mimicing a forward position controller.
+        </description>
+    </class>
+    <!-- TODO: insert your own controller here with another <class> tag -->
+</library>
